@@ -1,0 +1,16 @@
+QT.contacts.VERSION = 0.0.0
+QT.contacts.name = QtContacts
+QT.contacts.module = QtContacts
+QT.contacts.libs = $$QT_MODULE_LIB_BASE
+QT.contacts.includes = $$QT_MODULE_LIB_BASE/QtContacts.framework/Headers
+QT.contacts.frameworks = $$QT_MODULE_LIB_BASE
+QT.contacts.bins = $$QT_MODULE_BIN_BASE
+QT.contacts.plugin_types = contacts
+QT.contacts.depends = core
+QT.contacts.uses =
+QT.contacts.module_config = v2 lib_bundle
+QT.contacts.DEFINES = QT_CONTACTS_LIB
+QT.contacts.enabled_features =
+QT.contacts.disabled_features =
+QT_CONFIG +=
+QT_MODULES += contacts

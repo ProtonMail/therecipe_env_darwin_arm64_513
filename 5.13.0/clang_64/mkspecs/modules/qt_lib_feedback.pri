@@ -1,0 +1,16 @@
+QT.feedback.VERSION = 0.0.0
+QT.feedback.name = QtFeedback
+QT.feedback.module = QtFeedback
+QT.feedback.libs = $$QT_MODULE_LIB_BASE
+QT.feedback.includes = $$QT_MODULE_LIB_BASE/QtFeedback.framework/Headers
+QT.feedback.frameworks = $$QT_MODULE_LIB_BASE
+QT.feedback.bins = $$QT_MODULE_BIN_BASE
+QT.feedback.plugin_types = feedback
+QT.feedback.depends = core
+QT.feedback.uses =
+QT.feedback.module_config = v2 lib_bundle
+QT.feedback.DEFINES = QT_FEEDBACK_LIB
+QT.feedback.enabled_features =
+QT.feedback.disabled_features =
+QT_CONFIG +=
+QT_MODULES += feedback

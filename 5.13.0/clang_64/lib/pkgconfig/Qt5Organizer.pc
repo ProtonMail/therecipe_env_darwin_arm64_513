@@ -1,0 +1,13 @@
+prefix=/Users/proton/Projects/Qt5-ARM64
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/lib/QtOrganizer.framework/Headers
+
+
+Name: Qt5 Organizer
+Description: Qt Organizer module
+Version: 0.0.0
+Libs: -F${libdir} -framework QtOrganizer 
+Cflags: -DQT_ORGANIZER_LIB -I${includedir} -F${libdir}
+Requires: Qt5Core
+

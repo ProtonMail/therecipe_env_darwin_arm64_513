@@ -1,0 +1,15 @@
+QT.bodymovin_private.VERSION = 5.13.0
+QT.bodymovin_private.name = QtBodymovin
+QT.bodymovin_private.module = QtBodymovin
+QT.bodymovin_private.libs = $$QT_MODULE_LIB_BASE
+QT.bodymovin_private.includes = $$QT_MODULE_LIB_BASE/QtBodymovin.framework/Headers $$QT_MODULE_LIB_BASE/QtBodymovin.framework/Headers/5.13.0 $$QT_MODULE_LIB_BASE/QtBodymovin.framework/Headers/5.13.0/QtBodymovin
+QT.bodymovin_private.frameworks = $$QT_MODULE_LIB_BASE
+QT.bodymovin_private.bins = $$QT_MODULE_BIN_BASE
+QT.bodymovin_private.depends = core gui gui_private
+QT.bodymovin_private.uses =
+QT.bodymovin_private.module_config = v2 lib_bundle internal_module
+QT.bodymovin_private.DEFINES = QT_BODYMOVIN_LIB
+QT.bodymovin_private.enabled_features =
+QT.bodymovin_private.disabled_features =
+QT_CONFIG +=
+QT_MODULES += bodymovin

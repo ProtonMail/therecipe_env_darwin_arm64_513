@@ -1,0 +1,13 @@
+prefix=/Users/proton/Projects/Qt5-ARM64
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/lib/QtContacts.framework/Headers
+
+
+Name: Qt5 Contacts
+Description: Qt Contacts module
+Version: 0.0.0
+Libs: -F${libdir} -framework QtContacts 
+Cflags: -DQT_CONTACTS_LIB -I${includedir} -F${libdir}
+Requires: Qt5Core
+

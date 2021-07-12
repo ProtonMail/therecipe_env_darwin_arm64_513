@@ -1,0 +1,13 @@
+prefix=/Users/proton/Projects/Qt5-ARM64
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/lib/QtCharts.framework/Headers
+
+
+Name: Qt5 Charts
+Description: Qt Charts module
+Version: 5.13.0
+Libs: -F${libdir} -framework QtCharts 
+Cflags: -DQT_CHARTS_LIB -I${includedir} -F${libdir}
+Requires: Qt5Core Qt5Gui Qt5Widgets
+

@@ -1,0 +1,13 @@
+prefix=/Users/proton/Projects/Qt5-ARM64
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/lib/QtConcurrent.framework/Headers
+
+
+Name: Qt5 Concurrent
+Description: Qt Concurrent module
+Version: 5.13.0
+Libs: -F${libdir} -framework QtConcurrent 
+Cflags: -DQT_CONCURRENT_LIB -I${includedir} -F${libdir}
+Requires: Qt5Core
+

@@ -1,0 +1,13 @@
+prefix=/Users/proton/Projects/Qt5-ARM64
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/lib/QtVersit.framework/Headers
+
+
+Name: Qt5 Versit
+Description: Qt Versit module
+Version: 0.0.0
+Libs: -F${libdir} -framework QtVersit 
+Cflags: -DQT_VERSIT_LIB -I${includedir} -F${libdir}
+Requires: Qt5Core Qt0Contacts
+

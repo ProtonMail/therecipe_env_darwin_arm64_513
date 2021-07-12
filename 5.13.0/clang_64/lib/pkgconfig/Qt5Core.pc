@@ -1,0 +1,14 @@
+prefix=/Users/proton/Projects/Qt5-ARM64
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/lib/QtCore.framework/Headers
+
+host_bins=${prefix}/bin
+qt_config=shared qt_framework rpath release c++11 c++14 c++1z concurrent dbus no-pkg-config reduce_exports stl properties animation textcodec big_codecs codecs itemmodel proxymodel concatenatetablesproxymodel textdate datestring doubleconversion filesystemiterator filesystemwatcher gestures identityproxymodel library mimetype process statemachine regularexpression settings sharedmemory sortfilterproxymodel stringlistmodel systemsemaphore temporaryfile translation transposeproxymodel xmlstream xmlstreamreader xmlstreamwriter
+
+Name: Qt5 Core
+Description: Qt Core module
+Version: 5.13.0
+Libs: -F${libdir} -framework QtCore 
+Cflags: -DQT_CORE_LIB -I${includedir} -F${libdir}
+
